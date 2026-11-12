@@ -1,0 +1,68 @@
+{
+  "device": "cpu",
+  "glm_view": true,
+  "external": true,
+  "runtime_min": 55.9,
+  "duplicated_independent": 100,
+  "abutting_tiles": 478,
+  "blocked": {
+    "StackFRL (multiview stacking)": {
+      "L1_MCC": 0.5326,
+      "L1_AUC": 0.8492,
+      "L2_MCC": 0.2501,
+      "L2_AUC": 0.6719,
+      "QWK": 0.5542
+    },
+    "CNN-DLSTM cascade": {
+      "L1_MCC": 0.4669,
+      "L1_AUC": 0.7896,
+      "L2_MCC": 0.1644,
+      "L2_AUC": 0.5944,
+      "QWK": 0.464
+    },
+    "gLM probe (DNABERT-6 + LR)": {
+      "L1_MCC": 0.5631,
+      "L1_AUC": 0.8591,
+      "L2_MCC": 0.2349,
+      "L2_AUC": 0.67,
+      "QWK": 0.5925
+    },
+    "EnGrade": {
+      "L1_MCC": 0.5868,
+      "L1_AUC": 0.8701,
+      "L2_MCC": 0.3144,
+      "L2_AUC": 0.7018,
+      "QWK": 0.604
+    }
+  },
+  "random": {
+    "StackFRL (multiview stacking)": {
+      "L1_MCC": 0.5386,
+      "L1_AUC": 0.8476,
+      "L2_MCC": 0.2471,
+      "L2_AUC": 0.6742,
+      "QWK": 0.567
+    },
+    "CNN-DLSTM cascade": {
+      "L1_MCC": 0.47,
+      "L1_AUC": 0.7956,
+      "L2_MCC": 0.1418,
+      "L2_AUC": 0.6126,
+      "QWK": 0.4759
+    },
+    "gLM probe (DNABERT-6 + LR)": {
+      "L1_MCC": 0.5588,
+      "L1_AUC": 0.8619,
+      "L2_MCC": 0.2671,
+      "L2_AUC": 0.6918,
+      "QWK": 0.5865
+    },
+    "EnGrade": {
+      "L1_MCC": 0.5806,
+      "L1_AUC": 0.8686,
+      "L2_MCC": 0.3105,
+      "L2_AUC": 0.7039,
+      "QWK": 0.589
+    }
+  }
+}

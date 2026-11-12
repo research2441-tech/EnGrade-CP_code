@@ -1,0 +1,12 @@
+check,value
+independent sequences that are exact copies of training sequences,100.0
+  of which strong,100.0
+  of which weak,0.0
+  of which non-enhancer,0.0
+independent sequences with >50% 8-mer containment in a training sequence,101.0
+training tiles abutting the previous tile on the same chromosome,478.0
+training tiles overlapping the previous tile,4.0
+loci made of >1 abutting tile,168.0
+training tiles inside multi-tile loci,991.0
+mean tier purity inside multi-tile loci,0.992
+distinct chromosomes in training,23.0

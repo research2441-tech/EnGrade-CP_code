@@ -1,0 +1,25 @@
+{
+  "out_dir": "engrade_outputs",
+  "data_dir": "engrade_data",
+  "n_folds": 5,
+  "cal_frac": 0.2,
+  "alpha": 0.1,
+  "seeds_main": [
+    0,
+    1,
+    2
+  ],
+  "seeds_other": [
+    0
+  ],
+  "epochs": 60,
+  "patience": 8,
+  "batch": 64,
+  "lr": 0.001,
+  "wd": 0.0001,
+  "use_glm": true,
+  "glm_name": "zhihan1996/DNA_bert_6",
+  "ext_n": 1000,
+  "n_boot": 1000,
+  "quick": false
+}
